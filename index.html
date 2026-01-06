@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telares Curihuinca | Artesanías Autóctonas con Identidad Cultural</title>
+    <meta name="description" content="Vitrina digital de artesanías autóctonas únicas, elaboradas por comunidades ancestrales con técnicas tradicionales y comercio justo.">
+    <meta name="keywords" content="artesanías, cultura indígena, productos autóctonos, comercio justo, tradición, cultura ancestral">
+    <meta name="author" content="Telares Curihuinca">
+    
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Telares Curihuinca | Textileria Mapuche">
+    <meta property="og:description" content="Descubre piezas únicas elaboradas por manos indígenas que preservan técnicas ancestrales.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://www.raicesvivas.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Telares Curihuinca | Textileria Mapuche">
+    <meta name="twitter:description" content="Vitrina digital de artesanías autóctonas únicas con identidad cultural">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/eco_favicon.png" sizes="32x32">
+    <link rel="icon" href="assets/img/eco_favicon.png" sizes="192x192">
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Botón flotante de contacto -->
+    <div class="floating-contact">
+        <div class="contact-options" id="contactOptions">
+            <a href="https://wa.me/56912345678?text=Hola%20Raíces%20Vivas,%20me%20interesa%20saber%20más%20sobre%20sus%20artesanías" target="_blank" class="contact-option contact-whatsapp" aria-label="Contactar por WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/" target="_blank" class="contact-option contact-instagram" aria-label="Seguir en Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/" target="_blank" class="contact-option contact-facebook" aria-label="Seguir en Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com/" target="_blank" class="contact-option contact-tiktok" aria-label="Seguir en TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+        <div class="contact-btn" id="contactBtn" aria-label="Abrir opciones de contacto">
+            <i class="fas fa-comments"></i>
+        </div>
+    </div>
+
+    <!-- 1️⃣ HERO / PORTADA -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+    <img src="assets/img/hero.png" alt="Telar mapuche tradicional en el sur de Chile" class="hero-bg-img">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Arte que nace de nuestras raíces</h1>
+                <p>Descubre piezas únicas elaboradas por manos indígenas que preservan técnicas ancestrales. Cada artesanía cuenta una historia de identidad, tradición y comercio justo.</p>
+                <div class="hero-btns">
+                    <a href="#galeria" class="btn btn-primary">Explorar Artesanías</a>
+                    <a href="#identidad" class="btn btn-secondary">Conoce nuestra historia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2️⃣ IDENTIDAD CULTURAL -->
+    <section class="section identidad" id="identidad">
+        <div class="container">
+            <div class="identidad-content">
+                <div class="identidad-texto">
+                    <h2>Legado Cultural Ancestral</h2>
+                    <p>Nuestras artesanías son más que objetos; son manifestaciones culturales vivas que conectan el presente con siglos de tradición. Cada patrón, cada forma y cada color tiene un significado profundo vinculado a nuestra identidad.</p>
+                    <p>Desde los tejidos que narran historias de la comunidad hasta las cerámicas que honran a la Madre Tierra, cada pieza es un puente entre generaciones.</p>
+                    
+                    <div class="identidad-iconos">
+                        <div class="icono-item hidden" id="icono1">
+                            <i class="fas fa-hands"></i>
+                            <h4>Técnicas Ancestrales</h4>
+                            <p>Transmitidas por generaciones</p>
+                        </div>
+                        <div class="icono-item hidden" id="icono2">
+                            <i class="fas fa-seedling"></i>
+                            <h4>Materiales Naturales</h4>
+                            <p>Respeto por el medio ambiente</p>
+                        </div>
+                        <div class="icono-item hidden" id="icono3">
+                            <i class="fas fa-history"></i>
+                            <h4>Historia Viva</h4>
+                            <p>Patrimonio cultural tangible</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="identidad-imagen hidden" id="identidad-img">
+                    <img src="assets/img/vision.png" alt="Detalle de telar mapuche elaborado artesanalmente">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ GALERÍA DE PRODUCTOS -->
+    <section class="section galeria" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Nuestra Vitrina Cultural</h2>
+            <p class="section-subtitle">Cada pieza es única, elaborada a mano con materiales naturales y técnicas tradicionales que garantizan autenticidad y calidad.</p>
+            
+            <div class="productos-grid">
+                <!-- Producto 1 -->
+                <div class="producto-card hidden" id="producto1">
+                    <div class="producto-img">
+                        <img src="assets/img/ads1.jpg" alt="Pieza artesanal tradicional elaborada en técnicas ancestrales">
+                        <div class="producto-overlay">Hecho a mano · Tiempo de elaboración: 2 semanas</div>
+                    </div>
+                    <div class="producto-info">
+                        <h3>Telar mapu</h3>
+                        <p class="producto-desc">Cerámica utilitaria de la comunidad Quechua, elaborada con arcilla local y pigmentos naturales.</p>
+                        <div class="producto-precio">
+                            <span class="precio">$32.990</span>
+                            <span class="badge">Pieza única</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="producto-card hidden" id="producto2">
+                    <div class="producto-img">
+                       <img src="assets/img/ads2.jpg" alt="Pieza artesanal tradicional elaborada en técnicas ancestrales">
+                        <div class="producto-overlay">Hecho a mano · Tejido en telar de cintura</div>
+                    </div>
+                    <div class="producto-info">
+                        <h3>Canasto Mimbre</h3>
+                        <p class="producto-desc">Tejido en lana de alpaca teñida con tintes naturales, representa la cosmovisión andina.</p>
+                        <div class="producto-precio">
+                            <span class="precio">$45.500</span>
+                            <span class="badge">Oferta</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="producto-card hidden" id="producto3">
+                    <div class="producto-img">
+                        <img src="assets/img/ads3.jpg" alt="Pieza artesanal tradicional elaborada en técnicas ancestrales">
+                        <div class="producto-overlay">Hecho a mano · Madera tallada a mano</div>
+                    </div>
+                    <div class="producto-info">
+                        <h3>Cantaro Ritual Mapuche</h3>
+                        <p class="producto-desc">Tallada en madera de canelo, utilizada en ceremonias espirituales de la cultura Mapuche.</p>
+                        <div class="producto-precio">
+                            <span class="precio">$28.750</span>
+                            <span class="badge">Última unidad</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 4 -->
+                <div class="producto-card hidden" id="producto4">
+                    <div class="producto-img">
+                        <img src="assets/img/ads5.jpg" alt="Pieza artesanal tradicional elaborada en técnicas ancestrales">
+                        <div class="producto-overlay">Hecho a mano · Fibras 100% naturales</div>
+                    </div>
+                    <div class="producto-info">
+                        <h3>Telar</h3>
+                        <p class="producto-desc">Cestería tradicional de Isla de Pascua, elaborada con fibras de plátano y totora.</p>
+                        <div class="producto-precio">
+                            <span class="precio">$24.990</span>
+                            <span class="badge">Pieza única</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#contacto" class="btn btn-secondary">Ver más piezas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4️⃣ ARTESANOS Y COMUNIDADES -->
+    <section class="section artesanos" id="artesanos">
+        <div class="container">
+            <h2 class="section-title">Manos Creadoras</h2>
+            <p class="section-subtitle">Conoce a las personas detrás de cada obra, guardianes de técnicas ancestrales que mantienen viva nuestra identidad cultural.</p>
+            
+            <div class="artesanos-grid">
+                <!-- Artesano 1 -->
+                <div class="artesano-card hidden" id="artesano1">
+                    <div class="artesano-img">
+                         <img src="assets/img/repre.png" alt="Artesana mapuche mostrando su trabajo en telar tradicional">
+                    </div>
+                    <div class="artesano-info">
+                        <h3>Mama Coco</h3>
+                        <span class="artesano-origen">Comunidad Quechua, Norte de Chile</span>
+                        <p>"Aprendí a trabajar el barro con mi abuela. Cada pieza que creo lleva una parte de nuestra historia y conexión con la Pachamama (Madre Tierra)."</p>
+                    </div>
+                </div>
+                
+                <!-- Artesano 2 -->
+                <div class="artesano-card hidden" id="artesano2">
+                    <div class="artesano-img">
+                         <img src="assets/img/repre.png" alt="Artesana mapuche mostrando su trabajo en telar tradicional">
+                    </div>
+                    <div class="artesano-info">
+                        <h3>Juan Coco</h3>
+                        <span class="artesano-origen">Comunidad Aymara, Altiplano</span>
+                        <p>"Tejer es mi forma de orar. En cada hilo voy contando la historia de mi pueblo, los colores representan nuestra tierra y nuestro cielo."</p>
+                    </div>
+                </div>
+                
+                <!-- Artesano 3 -->
+                <div class="artesano-card hidden" id="artesano3">
+                    <div class="artesano-img">
+                         <img src="assets/img/repre.png" alt="Artesana mapuche mostrando su trabajo en telar tradicional">
+                    </div>
+                    <div class="artesano-info">
+                        <h3>Ana Curipán</h3>
+                        <span class="artesano-origen">Comunidad Mapuche, Sur de Chile</span>
+                        <p>"La plata que trabajo representa la luz de la luna en nuestros lagos. Cada joya tiene un espíritu y una protección para quien la lleva."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ SUSTENTABILIDAD Y COMERCIO JUSTO -->
+    <section class="section sustentabilidad" id="sustentabilidad">
+        <div class="container">
+            <div class="sustentabilidad-content">
+                <h2 class="section-title">Compromiso con la Tierra y las Comunidades</h2>
+                <p class="section-subtitle">Nuestro modelo valora el trabajo artesanal, promueve el comercio justo y garantiza la preservación de técnicas ancestrales.</p>
+                
+                <div class="sustentabilidad-iconos">
+                    <div class="sust-icono hidden" id="sust-icono1">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Sustentabilidad Ambiental</h3>
+                        <p>Utilizamos solo materiales naturales y renovables, respetando los ciclos de la naturaleza.</p>
+                    </div>
+                    
+                    <div class="sust-icono hidden" id="sust-icono2">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Comercio Justo</h3>
+                        <p>El 80% del valor va directamente al artesano y su comunidad, fomentando desarrollo local.</p>
+                    </div>
+                    
+                    <div class="sust-icono hidden" id="sust-icono3">
+                        <i class="fas fa-book"></i>
+                        <h3>Preservación Cultural</h3>
+                        <p>Trabajamos con maestros artesanos que transmiten su conocimiento a nuevas generaciones.</p>
+                    </div>
+                </div>
+                
+                <div class="sustentabilidad-texto hidden" id="sustentabilidad-texto">
+                    <p><strong>Impacto medible:</strong> En los últimos 3 años, hemos trabajado con 12 comunidades indígenas, apoyado a más de 150 artesanos y preservado 8 técnicas ancestrales que estaban en riesgo de desaparecer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6️⃣ LLAMADO A LA ACCIÓN FINAL -->
+    <section class="section cta-final" id="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Cada pieza cuenta una historia</h2>
+                <p>¿Te gustaría conocer más sobre nuestras artesanías, su significado cultural o conversar sobre una pieza especial para tu hogar o empresa?</p>
+                <div class="cta-btns">
+                    <a href="https://wa.me/56912345678?text=Hola%20Raíces%20Vivas,%20me%20interesa%20saber%20más%20sobre%20sus%20artesanías" target="_blank" class="btn btn-primary">Conversemos por WhatsApp</a>
+                    <a href="mailto:contacto@raicesvivas.com" class="btn btn-secondary">Envíanos un email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Telares Curihuinca</h3>
+                    <p>Vitrina digital de artesanías autóctonas con identidad cultural, tradición y comercio justo.</p>
+                    <div class="footer-social" style="margin-top: 20px;">
+                        <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://tiktok.com/" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                       <!-- <a href="https://pinterest.com/raicesvivas" target="_blank" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>-->
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="#galeria">Nuestras artesanías</a></li>
+                        <li><a href="#artesanos">Artesanos</a></li>
+                        <li><a href="#identidad">Identidad cultural</a></li>
+                        <li><a href="#sustentabilidad">Comercio justo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contacto">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-envelope"></i> contacto@TextilMapuche.com</p>
+                    <p><i class="fas fa-phone"></i> +56 9 1234 5678</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Temuco, Chile</p>
+                    <p><i class="fas fa-clock"></i> Lunes a viernes: 9:00 - 18:00 hrs</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Telares Curihuinca. Todos los derechos reservados. | Diseñado con respeto por nuestra cultura ancestral.</p>
+              <!--  <p style="margin-top: 10px; font-size: 0.8rem;">Las imágenes son de <a href="https://unsplash.com" target="_blank" style="color: var(--color-arena);">Unsplash</a> para fines demostrativos.</p>-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
